@@ -38,5 +38,5 @@ public interface EmployeeMapper {
      * 启用禁用员工状态
      * @param employee
      */
-    void updateStatus(Employee employee);
+    void update(Employee employee);
 }

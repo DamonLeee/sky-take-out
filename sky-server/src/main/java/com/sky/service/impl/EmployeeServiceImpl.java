@@ -133,6 +133,6 @@ public class EmployeeServiceImpl implements EmployeeService {
                 .id(id)
                 .build();
 
-        employeeMapper.updateStatus(employee);
+        employeeMapper.update(employee);
     }
 }
