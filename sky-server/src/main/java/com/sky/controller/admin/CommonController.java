@@ -18,7 +18,7 @@ import java.util.UUID;
 @Slf4j
 @Api(tags = "通用接口")
 @RequestMapping("/admin/common")
-public class UploadController {
+public class CommonController {
 
     private final static String FILE_UPLOAD_PATH = "D:\\A WorkingSpace\\images\\";
 
